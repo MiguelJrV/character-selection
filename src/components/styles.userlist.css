@@ -1,0 +1,30 @@
+.container_list {
+
+    width: 1500px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-content: center;
+  gap: 100px;
+
+}
+.card_users{
+    color: black;
+    width: 350px;
+    height: 190px;
+  border: 1px solid violet;
+  border-radius: 20px;
+  background-color: violet;
+
+
+ align-content: center;
+
+
+}
+
+.card_users img{
+     width: 100px;
+     height: 100px;
+      border-radius: 100px;
+}
