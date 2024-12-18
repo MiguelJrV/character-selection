@@ -31,7 +31,7 @@ export default function UserList() {
                <img src={item.avatar} alt="users" />
                 <p>{item.email}</p>
                 <p>{item. first_name} - {item.last_name}</p>
-                <button style={{color:"violet"}}  onClick={()=>getProfile(item.id)} >Detail</button>
+                <button style={{color:"red"}}  onClick={()=>getProfile(item.id)} >Detail</button>
              </div>
            )) :""
         }
